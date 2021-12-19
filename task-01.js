@@ -34,5 +34,6 @@ switch (action) {
       break
   }
   let result = document.getElementById("result_multi");
- result.innerHTML = Math.round(multi); 
+  result.innerHTML = Math.round(multi); 
+  
 }
