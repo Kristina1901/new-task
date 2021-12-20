@@ -58,7 +58,7 @@ body {
 button {
   display: inline-flex;
   padding: 12px 32px;
-  border: 2px solid #2a2a2a;
+  border: 1px solid #2a2a2a;
   border-radius: 4px;
   background-color: #ccffcc;
   color: #000000;
