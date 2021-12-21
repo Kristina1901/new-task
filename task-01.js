@@ -13,6 +13,9 @@ function handleSubmit(event) {
   if  (numberf.value === "" || numberc.value === "") {
     return alert("Будь ласка, введіть число!");
   }
+   if  (numberf.value !== Number || numberc.value !== Number) {
+    return alert("Будь ласка, введіть число!");
+  }
 let numberFirst = document.getElementById("first_value").value;
 let numberSecond = document.getElementById("second_value").value;
 let numberFirstValue = parseFloat(numberFirst);
