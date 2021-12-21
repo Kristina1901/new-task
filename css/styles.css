@@ -3,22 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-.form:focus-within {
-  border-color: #2196f3;
-}
-
-.form-label:focus-within {
-  color: #2196f3;
-}
-
-.form-input:not(:placeholder-shown):required:valid {
-  border-color: #4caf50;
-}
-
-.form-input:not(:placeholder-shown):required:invalid {
-  border-color: #f44336;
-}
-
 /* Example styles */
 body {
   font-family: sans-serif;
