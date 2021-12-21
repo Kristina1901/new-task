@@ -10,15 +10,15 @@ function handleSubmit(event) {
     elements: { numberf, numberc }
   } = event.currentTarget;
 
-  if  (numberf.value === "" || numberc.value === "") {
+  if (numberf.value === "" || numberc.value === "") {
     return alert("Будь ласка, введіть число!");
   }
-    let numberFirst = document.getElementById("first_value").value;
-    let numberSecond = document.getElementById("second_value").value;
-    let numberFirstValue = parseFloat(numberFirst);
-    let numberSecondValue = parseFloat(numberSecond);
-    let action = document.getElementById('sample').value;
-    let multi = 0;
+  let numberFirst = document.getElementById("first_value").value;
+  let numberSecond = document.getElementById("second_value").value;
+  let numberFirstValue = parseFloat(numberFirst);
+  let numberSecondValue = parseFloat(numberSecond);
+  let action = document.getElementById('sample').value;
+  let multi = 0;
   switch (action) {
     case "+":
       multi = numberFirstValue + numberSecondValue;
@@ -33,8 +33,8 @@ function handleSubmit(event) {
       multi = numberFirstValue / numberSecondValue;
       break
   }
-    let result = document.getElementById("result_multi");
-    result.innerHTML = Math.round(multi);
+  let result = document.getElementById("result_multi");
+  result.innerHTML = Math.round(multi);
    
     
 }
