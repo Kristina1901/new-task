@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-/* Example styles */
 body {
   font-family: sans-serif;
   line-height: 1.5;
